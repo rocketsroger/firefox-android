@@ -13,6 +13,9 @@ permalink: /changelog/
 * **all components**
   * All new usages of the `concept-fetch` component to make fetch requests now have conservative-mode off by default. Current features will continue to use conservative mode until individually updated.
 
+* **concept-engine**
+  * Added `onLocationChange#hasUserGesture` parameter. This indicates if a location change was requested while a user gesture was active. [bug #1804636](https://bugzilla.mozilla.org/show_bug.cgi?id=1804636)
+
 # 123.0
 * [Commits](https://github.com/mozilla-mobile/firefox-android/compare/releases_v122..releases_v123)
 * [Dependencies](https://github.com/mozilla-mobile/firefox-android/blob/releases_v123/android-components/plugins/dependencies/src/main/java/DependenciesPlugin.kt)
